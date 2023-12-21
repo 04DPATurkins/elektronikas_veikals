@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/cart-localstorage@1.1.4/dist/cart-localstorage.min.js" type="text/javascript"></script>
+   </head>
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a>Veironics</a>
+      </div>
+      <ul>
+        <li><a
+href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+
+        <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Product</a>
+    <div class="dropdown-content">
+      <a href="computer.html">Computers</a>
+      <a href="console.html">Consoles</a>
+      <a href="phone.html">Phones</a>
+    </div>
+  </li>
+        
+        <li><a href="delivery.html">Delivery</a></li>
+        <li><a href="contacts.html">Contact</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="location.html">Location</a></li>
+        <li><a href="LOG_IN.html">Log IN</a></li>
+        <li><a href="shopping.html">Your cart</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="img"></div>
+  <div class="center">
+    <div class="title">Phones</div>
+  </div>
+  <!-- produkti-->
+
+
+    <div class="phone1-card">
+  <div class="phone1-card-border-top">
+  </div>
+  <div class="Image"> 
+  <img src="phone1.webp" alt="Samsung A53" style="width:100%">
+  </div>
+  <span> "Samsung A53" This is a regular mobile phone that can do what phones are supposed to do so if you dont want to be a profesional phone gamer then this is the right thing for you!</span>
+  <p class="price">$354</p>
+  <button type="button" class="btn btn-block btn-outline-primary"
+						onClick="cartLS.add({id: 13, name: 'Samsung A53', price: 354})">Buy</button>
+</div>
+
+
+    <div class="phone2-card">
+  <div class="phone2-card-border-top">
+  </div>
+  <div class="Image"> 
+  <img src="phone2.webp" alt="samsung galaxy s22" style="width:100%">
+  </div>
+  <span> "samsung galaxy s22" This phone is one of the most recomended phones that you can find in our shop because it can do almost anything you would ever wanna do on a phone!</span>
+  <p class="price">$754</p>
+  <button type="button" class="btn btn-block btn-outline-primary"
+						onClick="cartLS.add({id: 14, name: 'samsung galaxy s22', price: 754})">Buy</button>
+</div>
+
+    <div class="phone3-card">
+  <div class="phone3-card-border-top">
+  </div>
+  <div class="Image"> 
+  <img src="phone3.jpg" alt="Nokia 1000" style="width:100%">
+  </div>
+  <span> "Nokia 1000" This phone is hihly recomended because of its super high durability and amaizing futures!!</span>
+  <p class="price">$10073</p>
+  <button type="button" class="btn btn-block btn-outline-primary"
+						onClick="cartLS.add({id: 15, name: 'Nokia 1000', price: 10073})">Buy</button>
+</div>
+
+    <div class="phone4-card">
+  <div class="phone4-card-border-top">
+  </div>
+  <div class="Image"> 
+  <img src="phone4.png" alt="Iphone 13" style="width:100%">
+  </div>
+  <span> "Iphone 13" This is one of the newest Iphone released phones in our store so if you are a Iphone fan this is for you!</span>
+  <p class="price">$1200</p>
+  <button type="button" class="btn btn-block btn-outline-primary"
+						onClick="cartLS.add({id: 16, name: 'Iphone 13', price: 1200})">Buy</button>
+</div>
+
+      <div class="phone5-card">
+  <div class="phone5-card-border-top">
+  </div>
+  <div class="Image"> 
+  <img src="phone5.webp" alt="Iphone S" style="width:100%">
+  </div>
+  <span> "Iphone S" This is one of the older iphone models that was popular few years ago but it still is one of the top competeters in modern phone sales!</span>
+  <p class="price">$500</p>
+  <button type="button" class="btn btn-block btn-outline-primary"
+						onClick="cartLS.add({id: 17, name: 'Iphone S', price: 500})">Buy</button>
+</div>
+
+      <div class="phone6-card">
+  <div class="phone6-card-border-top">
+  </div>
+  <div class="Image"> 
+  <img src="phone6.webp" alt="Iphone 11" style="width:100%">
+  </div>
+  <span> "Iphone 11 Pro Max ++ Ultra Mini Galaxic High-end Super" This is one of the BEST phones to ever exist so you if you have the money then buy it! It has 47K quality camera and has even more then 111TB ram memory!!!!!</span>
+  <p class="price">$11111</p>
+  <button type="button" class="btn btn-block btn-outline-primary"
+						onClick="cartLS.add({id: 18, name: 'Iphone 11 Pro Max ++ Ultra Mini Galaxic High-end Super', price: 11111})">Buy</button>
+</div>
+  
+   <!-- produkti beidzas -->
+  
+</body>
+</html>
+
+
+
+<footer class="ct-footer">
+  <div class="container">
+    <form name="contentForm" enctype="multipart/form-data" method="post" action="">
+      <div class="ct-footer-pre text-center-lg">
+        <div class="inner">
+          <span>You can join our page to follow all news and get updated as soon as we releas new products.</span>
+        </div>
+        <div class="inner">
+          <div class="form-group">
+            <input name="formfields[nl_email]" id="nl_email" class="validate[required]" placeholder="Enter your email address" type="text" value=""> <label for="nl_email" class="sr-only"></label> <button type="submit" class="btn btn-motive">Join</button>
+          </div>
+        </div>
+      </div>
+    </form>
+    <ul class="ct-footer-list text-center-sm">
+      <li>
+        <h2 class="ct-footer-list-header">Learn More</h2>
+        <ul>
+          <li>
+            <a href="news.html">News</a>
+          </li>
+          <li>
+            <a href="careers.html">Careers</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h2 class="ct-footer-list-header">Services</h2>
+        <ul>
+          <li>
+            <a href="marketing.html">Marketing</a>
+          </li>
+          <li>
+            <a href="sales.html">Sales</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h2 class="ct-footer-list-header">The Industry</h2>
+        <ul>
+          <li>
+            <a href="events.html">Events</a>
+          </li>
+          <li>
+            <a href="sponsorships.html">Sponsorships</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h2 class="ct-footer-list-header">Public Relations</h2>
+        <ul>
+          <li>
+            <a href="videos.html">Videos</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h2 class="ct-footer-list-header">About</h2>
+        <ul>
+          <li>
+            <a href="ourstaff.html">Our Staff</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <div class="ct-footer-meta text-center-sm">
+      <div class="row">
+        <div class="col-sm-6 col-md-3">
+          <address>
+            <span>Veironics<br></span>Brīvības iela 237<br>
+            Rīga, Latvija, 074103<br>
+            <span>Phone: <a href="tel:29419222">(+371) 294-19222</a></span>
+          </address>
+        </div>
+        <div class="col-sm-6 col-md-2 ct-u-paddingTop10">
+          <a href="https://play.google.com/store/games" target="_blank"><img alt="google play store" src="GooglePlay.png" width="200" height="70"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="ct-footer-post">
+  </div>
+</footer>
